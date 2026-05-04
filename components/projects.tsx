@@ -36,6 +36,15 @@ export function Projects() {
       github: 'https://github.com/chetna177/Dr_Semmelweis_Handwashing_Discovery',
     },
     {
+       id: '3',
+      title: 'Sales Dashboard using Excel',
+      description: 'Developed an interactive Sales Performance Dashboard in Microsoft Excel to analyze sales data and employee performance.',
+      tags: ['Excel', 'pivot table', 'pivot chart', 'slicer'],
+      image: '/images/Sales_Dashboard.png',
+      link: 'https://example.com',
+      github: 'https://github.com/chetna177/Sales-Perfomance-Dashboard/'
+    },
+    {
       id: '3',
       title: 'Computation with NumPy and N-Dimensional Arrays',
       description: 'Collaborative task management tool with real-time updates, team collaboration features, and project tracking capabilities.',
