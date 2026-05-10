@@ -17,8 +17,17 @@ interface Project {
 
 export function Projects() {
   const projects: Project[] = [
-    {
+        {
       id: '1',
+      title: ' Sales Intelligence Dashboard for Mobile Devices',
+      description: 'Power BI dashboard analyzing mobile sales trends, revenue performance, customer insights, and product-wise analytics using interactive visualizations and KPI tracking.',
+      tags: ['Power BI','Excel','Power Query','DAX','Data Visualization','Dashboard Design'],
+      image: '/images/mobilesales.png',
+      link: 'https://example.com',
+      github: 'https://github.com/chetna177/Sales-Intelligence-Dashboard-for-Mobile-Devices',
+    },
+    {
+      id: '2',
       title: ' Space Mission Data Analysis',
       description: 'Real-time data visualization platform with interactive charts, custom reports, and user analytics tracking for enterprise clients.',
       tags: ['Pyhton','Pandas','Numpy','Plotly','matplotlib','seaborn','jupyter sNotebook'],
@@ -27,7 +36,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/SpaceMission',
     },
     {
-      id: '2',
+      id: '3',
       title: 'Dr Semmelweis Handwashing Discovery',
       description: 'Full-featured online store with product catalog, shopping cart, payment integration, and admin dashboard for inventory management.',
       tags: ['python', 'numpy', 'matplotlib', 'pandas', 'seaborn','scipy.stat','HTML'],
@@ -36,7 +45,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/Dr_Semmelweis_Handwashing_Discovery',
     },
     {
-       id: '3',
+       id: '4',
       title: 'Sales Dashboard using Excel',
       description: 'Developed an interactive Sales Performance Dashboard in Microsoft Excel to analyze sales data and employee performance.',
       tags: ['Excel', 'pivot table', 'pivot chart', 'slicer'],
@@ -45,7 +54,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/Sales-Perfomance-Dashboard/'
     },
     {
-      id: '3',
+      id: '5',
       title: 'Computation with NumPy and N-Dimensional Arrays',
       description: 'Collaborative task management tool with real-time updates, team collaboration features, and project tracking capabilities.',
       tags: ['Python','matplotlib', 'Numpy','scipy','PIL','Jupyter Notebook', 'HTML'],
@@ -54,7 +63,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/Computation-with-Numpy-and-NDimentional-Arrays',
     },
     {
-      id: '4',
+      id: '6',
       title: 'Pong Game',
       description: 'AI-powered content creation tool leveraging OpenAI API to generate marketing copy, blog posts, and creative content.',
       tags: ['Python', 'turtle', ''],
@@ -63,7 +72,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/PongGame',
     },
     {
-      id: '5',
+      id: '7',
       title: 'Stock Trading Market',
       description: 'This project is a Python-based Stock & News Alert System that monitors stock price changes and sends real-time notifications when significant fluctuations occur.',
       tags: ['python', 'Twilio API (SMS service)', 'stock market API'],
@@ -72,7 +81,7 @@ export function Projects() {
       github: 'https://github.com/chetna177/PDFtoAudio-Generator',
     },
     {
-      id: '6',
+      id: '8',
       title: 'Rain alert',
       description: 'A simple Python project that checks weather forecast data and sends an SMS alert if rain is expected — so you never forget your umbrella ',
       tags: ['python', 'OpenWeatherMap API', 'Twilio API (SMS service)', 'Geolocation'],
